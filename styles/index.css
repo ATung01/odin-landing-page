@@ -8,7 +8,7 @@ html {
 .Header {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 500px;
   background-color: lightblue;
 }
 
@@ -37,4 +37,42 @@ div .Logo {
   width: 600px;
   height: 300px;
   align-self: center;
+}
+
+div .RandomInformation {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.RandomInformation h2 {
+  text-align: center;
+}
+
+.CardContainer {
+  width: 100%;
+  height: 450px;
+}
+
+.Cards {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.Cards li {
+  height: 250px;
+  width: 150px;
+}
+
+.Cards .Profile {
+  height: 150px;
+  width: 150px;
+  border: 4px solid rgba(0, 0, 255, 0.774);
+  border-radius: 30px;
+}
+
+.Cards .Content {
+  margin: 10px 0px;
 }
