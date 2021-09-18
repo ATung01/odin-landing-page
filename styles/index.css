@@ -95,3 +95,41 @@ div.Testimonial {
 .QuoteContainer .Signature {
   align-self: flex-end;
 }
+
+.CallToAction {
+  display: flex;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+.CallToActionContainer {
+  display: flex;
+  background-color: blue;
+  border-radius: 15px;
+  width: 1000px;
+  height: 125px;
+  padding: 10px;
+}
+
+.CallToActionContainer .Dialogue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.CallToActionContainer .Dialogue h2 {
+  margin: 0px;
+}
+
+.CallToActionContainer .Dialogue p {
+  margin: 0px;
+}
+
+.CallToActionContainer button {
+  margin: 0px 100px 0px auto;
+  height: 30px;
+  width: 100px;
+  align-self: center;
+}
