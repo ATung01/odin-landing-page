@@ -5,6 +5,11 @@ html {
   box-sizing: inherit;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .Header {
   display: flex;
   flex-direction: column;
@@ -132,4 +137,13 @@ div.Testimonial {
   height: 30px;
   width: 100px;
   align-self: center;
+}
+
+footer {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
 }
