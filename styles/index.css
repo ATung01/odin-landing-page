@@ -28,7 +28,7 @@ html {
   margin: 10px;
 }
 
-div .Logo {
+div.Logo {
   margin: 10px auto 10px 200px;
 }
 
@@ -39,7 +39,7 @@ div .Logo {
   align-self: center;
 }
 
-div .RandomInformation {
+div.RandomInformation {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -53,7 +53,7 @@ div .RandomInformation {
 
 .CardContainer {
   width: 100%;
-  height: 450px;
+  height: 400px;
 }
 
 .Cards {
@@ -75,4 +75,23 @@ div .RandomInformation {
 
 .Cards .Content {
   margin: 10px 0px;
+}
+
+div.Testimonial {
+  display: flex;
+  background-color: lightgray;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.QuoteContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 600px;
+}
+
+.QuoteContainer .Signature {
+  align-self: flex-end;
 }
