@@ -14,15 +14,16 @@ html, body {
   display: flex;
   flex-direction: column;
   height: 500px;
-  background-color: lightblue;
+  background-color: #1f2937;
+  color: white;
 }
 
 .Navbar {
   display: flex;
   width: 100%;
   height: 50px;
-  flex: 1;
   justify-content: space-between;
+  padding-right: 100px;
 }
 
 .Navbar div {
@@ -30,18 +31,59 @@ html, body {
   height: 50px;
   padding: 5px;
   align-self: flex-start;
-  margin: 10px;
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 div.Logo {
   margin: 10px auto 10px 200px;
+  font-size: 24px;
+  color:#f9faf8;
 }
 
 .CenterPiece {
   display: flex;
-  width: 600px;
-  height: 300px;
-  align-self: center;
+  font-size: 18px;
+  margin: 100px 0px 0px 190px;
+  align-items: center;
+}
+
+.CenterPiece {
+  padding: 10px;
+}
+
+.CenterPiece .Title h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  width: 400px;
+  margin: 0px;
+}
+
+.CenterPiece .Title p {
+  width: 400px;
+  margin-top: 0px;
+  color: #e5e7eb;
+}
+
+.CenterPiece .Title button {
+  background-color: #3882f6;
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ImagePlaceholder {
+  display: flex;
+  background-color: #6D747D;
+  width: 500px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
 }
 
 div.RandomInformation {
@@ -84,7 +126,7 @@ div.RandomInformation {
 
 div.Testimonial {
   display: flex;
-  background-color: lightgray;
+  background-color: #e5e7eb;
   align-items: center;
   justify-content: center;
   height: 300px;
@@ -145,5 +187,5 @@ footer {
   width: 100%;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  background-color: #1f2937;
 }
